@@ -1,0 +1,32 @@
+devtools:
+    livereload:
+        enabled: true
+    restart:
+        enabled: true
+server:
+    port: 8081
+spring:
+    datasource:
+        username: root
+        password: 123456
+        url:  jdbc:mysql://localhost:3306/world?serverTimezone=Asia/Shanghai
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+    web:
+        resources:
+            static-locations: classpath:/template/
+    thymeleaf:
+        encoding: utf-8
+
+
+
+#logging:
+#    file:
+#        path: logs/info.log
+#    logback:
+#        rollingpolicy:
+#            max-history: 2
+
+#            max-file-size: 1MB
