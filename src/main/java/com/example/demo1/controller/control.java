@@ -1,5 +1,6 @@
 package com.example.demo1.controller;
 
+import com.example.demo1.entity.User;
 import com.example.demo1.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,8 +15,8 @@ public class control {
     private UserMapper userMapper;
 
     @GetMapping("/all")
-    public @ResponseBody Object  all() {
-        System.out.println(6);
-        return userMapper.findUser();
+    public @ResponseBody Object  all(User user) {
+        System.out.println(user);
+        return userMapper.findUser(user);
     }
 }
