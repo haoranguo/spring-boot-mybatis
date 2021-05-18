@@ -17,17 +17,15 @@ spring:
         show-sql: true
     web:
         resources:
-            static-locations: classpath:/template/
+            static-locations: classpath:/templates/
     thymeleaf:
         encoding: utf-8
-
-
-
-#logging:
-#    file:
-#        path: logs/info.log
-#    logback:
-#        rollingpolicy:
-#            max-history: 2
-
-#            max-file-size: 1MB
+logging:
+    file:
+        path: logs/info.log
+    logback:
+        rollingpolicy:
+            max-history: 2
+            max-file-size: 1MB
+mybatis-plus:
+    mapper-locations: classpath:/dao/*.xml
