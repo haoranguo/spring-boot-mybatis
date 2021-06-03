@@ -1643,3 +1643,38 @@ org.apache.ibatis.binding.BindingException: Invalid bound statement (not found):
 2021-05-18 16:45:35.769  INFO 2408 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2021-05-18 16:45:35.773  INFO 2408 --- [http-nio-8081-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
 2021-05-18 16:45:35.787  INFO 2408 --- [http-nio-8081-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-06-03 17:11:46.881  INFO 11112 --- [restartedMain] com.example.demo1.Demo1Application       : Starting Demo1Application using Java 16.0.1 on DESKTOP-FS92JVN with PID 11112 (E:\job79\spring-boot-mybatis\target\classes started by Administrator in E:\job79\spring-boot-mybatis)
+2021-06-03 17:11:46.883  INFO 11112 --- [restartedMain] com.example.demo1.Demo1Application       : No active profile set, falling back to default profiles: default
+2021-06-03 17:11:46.931  INFO 11112 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-03 17:11:46.931  INFO 11112 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-03 17:11:47.675  INFO 11112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-06-03 17:11:47.681  INFO 11112 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-03 17:11:47.682  INFO 11112 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-06-03 17:11:47.733  INFO 11112 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-03 17:11:47.734  INFO 11112 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 802 ms
+2021-06-03 17:11:47.764  INFO 11112 --- [restartedMain] com.example.demo1.Demo1Application       : ---> info start! <------
+2021-06-03 17:11:47.764  WARN 11112 --- [restartedMain] com.example.demo1.Demo1Application       : ---> warn start! <------
+2021-06-03 17:11:47.764 ERROR 11112 --- [restartedMain] com.example.demo1.Demo1Application       : ---> error start! <------
+2021-06-03 17:11:48.147  INFO 11112 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-03 17:11:48.190  INFO 11112 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [templates/index.html]
+2021-06-03 17:11:48.278  INFO 11112 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-03 17:11:48.333  INFO 11112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-06-03 17:11:48.344  INFO 11112 --- [restartedMain] com.example.demo1.Demo1Application       : Started Demo1Application in 1.858 seconds (JVM running for 3.837)
+2021-06-03 17:45:07.529  INFO 15272 --- [restartedMain] com.example.demo1.Demo1Application       : Starting Demo1Application using Java 16.0.1 on DESKTOP-FS92JVN with PID 15272 (E:\job79\spring-boot-mybatis\target\classes started by Administrator in E:\job79\spring-boot-mybatis)
+2021-06-03 17:45:07.531  INFO 15272 --- [restartedMain] com.example.demo1.Demo1Application       : No active profile set, falling back to default profiles: default
+2021-06-03 17:45:07.574  INFO 15272 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-03 17:45:07.575  INFO 15272 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-03 17:45:08.331  INFO 15272 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-06-03 17:45:08.337  INFO 15272 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-03 17:45:08.337  INFO 15272 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-03 17:45:08.386  INFO 15272 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-03 17:45:08.387  INFO 15272 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 812 ms
+2021-06-03 17:45:08.414  INFO 15272 --- [restartedMain] com.example.demo1.Demo1Application       : ---> info start! <------
+2021-06-03 17:45:08.414  WARN 15272 --- [restartedMain] com.example.demo1.Demo1Application       : ---> warn start! <------
+2021-06-03 17:45:08.414 ERROR 15272 --- [restartedMain] com.example.demo1.Demo1Application       : ---> error start! <------
+2021-06-03 17:45:08.750  INFO 15272 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [templates/index.html]
+2021-06-03 17:45:08.833  INFO 15272 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-03 17:45:08.875  INFO 15272 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-06-03 17:45:08.883  INFO 15272 --- [restartedMain] com.example.demo1.Demo1Application       : Started Demo1Application in 1.763 seconds (JVM running for 2.546)
+2021-06-03 17:45:08.884  INFO 15272 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-03 17:45:08.885  INFO 15272 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
