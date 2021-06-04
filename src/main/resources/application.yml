@@ -16,6 +16,9 @@ spring:
             static-locations: classpath:/templates/
     thymeleaf:
         encoding: utf-8
+    sql:
+        init:
+            schema-locations: classpath:schema.sql
 mybatis-plus:
             mapper-locations: classpath:/dao/*.xml
 #logging:

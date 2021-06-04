@@ -10,6 +10,8 @@
              user
         where
               id = #{id}
-
+        <if test="title != null">
+            AND title like #{title}
+        </if>
     </select>
 </mapper>
